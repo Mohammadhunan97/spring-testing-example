@@ -27,4 +27,12 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 }
